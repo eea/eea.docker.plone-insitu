@@ -1,13 +1,13 @@
-nd Copernicus Plone Image (based on EEA KGS)
+# InSitu Plone Image (based on EEA KGS)
 
 ## Base docker image
 
- - [hub.docker.com](https://hub.docker.com/r/eeacms/plone-copernicus-land)
+ - [hub.docker.com](https://hub.docker.com/r/eeacms/plone-insitu) [TODO]: create this on Docker Hub.
 
 ## Source code
 
-  - [github.com](http://github.com/eea/eea.docker.plone-copernicus-land)
+  - [github.com](http://github.com/eea/eea.docker.plone-insitu)
 
 ## Installation and usage
 
-See [Copernicus Land Monitoring/In Situ Docker Orchestration](https://github.com/eea/eea.docker.copernicus)
+See [Copernicus Land Monitoring/In Situ Docker Orchestration](https://github.com/eea/eea.docker.copernicus) [TODO]: Add details when ready.
