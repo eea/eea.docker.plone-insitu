@@ -10,4 +10,4 @@
 
 ## Installation and usage
 
-See [Copernicus Land Monitoring/In Situ Docker Orchestration](https://github.com/eea/eea.docker.copernicus) [TODO]: Add details when ready.
+See [Copernicus Land Monitoring/In Situ Docker Orchestration](https://github.com/eea/eea.docker.copernicus)
