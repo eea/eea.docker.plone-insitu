@@ -2,7 +2,7 @@
 
 ## Base docker image
 
- - [hub.docker.com](https://hub.docker.com/r/eeacms/plone-insitu) [TODO]: create this on Docker Hub.
+ - [hub.docker.com](https://hub.docker.com/r/eeacms/plone-copernicus-insitu)
 
 ## Source code
 
