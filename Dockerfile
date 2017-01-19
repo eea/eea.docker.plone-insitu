@@ -1,4 +1,4 @@
-FROM eeacms/kgs:8.8
+FROM eeacms/kgs:9.0
 MAINTAINER "EEA: IDM2 B-Team"
 
 COPY buildout.cfg /plone/instance/
