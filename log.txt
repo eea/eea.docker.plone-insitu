@@ -1,3 +1,4 @@
 Deploys
 =======
+1.2 #80505 Redesign mode
 9.5-1.0 #82999
