@@ -1,4 +1,5 @@
 Deploys
 =======
+1.3 #80505, #82808 - Fix search form, update newsletter subscribe form styles
 1.2 #80505 Redesign mode
 9.5-1.0 #82999
