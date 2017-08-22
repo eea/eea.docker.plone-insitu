@@ -1,5 +1,6 @@
 Deploys
 =======
+2.0 #87227 - http -> https
 1.9 #86739 - Fix non-ascii chars problem in news_listing and news viewlet
 1.8 #82295, #82352 - Search by tags, inproximity content type
 1.7 #82352 - Search by tags
