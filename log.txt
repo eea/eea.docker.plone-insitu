@@ -1,5 +1,6 @@
 Deploys
 =======
+2.0.3 #94018 - Files: non-ASCII characters in title generate error
 2.0.2 Rebuild.
 2.0.1 #92357 - Files (pdf): Generate cover img only when requested.
              - Use latest EEA KGS: 18.3.14
