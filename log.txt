@@ -1,5 +1,6 @@
 Deploys
 =======
+2.0.5 #96927 - Search by tags: fix responsivity issues.
 2.0.4 #96464 - Search by tags: increase the number of items shown to 8
       #96426 - Search by tags: items order
       #96437 - Events box: updated "view all" link
