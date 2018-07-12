@@ -1,12 +1,13 @@
 Deploys
 =======
-2.0.5 #96927 - Search by tags: fix responsivity issues.
+2.0.6 #97042 - Update to latest KGS
+2.0.5 #96927 - Search by tags: fix responsivity issues
 2.0.4 #96464 - Search by tags: increase the number of items shown to 8
       #96426 - Search by tags: items order
       #96437 - Events box: updated "view all" link
 2.0.3 #94018 - Files: non-ASCII characters in title generate error
 2.0.2 Rebuild.
-2.0.1 #92357 - Files (pdf): Generate cover img only when requested.
+2.0.1 #92357 - Files (pdf): Generate cover img only when requested
              - Use latest EEA KGS: 18.3.14
 2.0 #87227 - http -> https
 1.9 #86739 - Fix non-ascii chars problem in news_listing and news viewlet
