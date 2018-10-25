@@ -1,0 +1,62 @@
+version: "2"
+services:
+  memcached:
+    image: eeacms/memcached
+    labels:
+      io.rancher.scheduler.affinity:host_label: copernicus=yes
+    tty: true
+    stdin_open: true
+
+  postfix:
+    image: eaudeweb/mailtrap
+    ports:
+      - "8081:80"
+
+  plone:
+    # image: eeacms/plone-copernicus-insitu:2.0.8
+    build: .
+    labels:
+      io.rancher.scheduler.affinity:host_label: copernicus=yes
+    tty: true
+    stdin_open: true
+    links:
+    - zeoserver
+    - memcached
+    environment:
+      ZOPE_MODE: zeo_client
+      LAND_DOWNLOADS_SRC_PATH: /tmp/
+      LAND_DOWNLOADS_DST_PATH: /tmp/
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      # - ./buildout.cfg:/plone/instance/buildout.cfg
+      - ./src:/plone/instance/src
+    ports:
+      - "8090:8080"
+    entrypoint: sh -c "tail -f /dev/null"
+
+  async:
+    image: eeacms/plone-copernicus-insitu:2.0.8
+    labels:
+      io.rancher.scheduler.affinity:host_label: copernicus=yes
+    links:
+    - zeoserver
+    - memcached
+    environment:
+      ZOPE_MODE: zeo_client
+      LAND_DOWNLOADS_SRC_PATH: /tmp/
+      LAND_DOWNLOADS_DST_PATH: /tmp/
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+
+  zeoserver:
+    image: plone/zeoserver:2.13.23
+    labels:
+      io.rancher.sidekicks: data
+      io.rancher.scheduler.affinity:host_label: copernicus=yes
+    volumes:
+      - pland-data:/data
+    environment:
+      TZ: "Europe/Copenhagen"
+
+volumes:
+  pinsitu-data:
