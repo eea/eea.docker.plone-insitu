@@ -54,7 +54,7 @@ services:
       io.rancher.sidekicks: data
       io.rancher.scheduler.affinity:host_label: copernicus=yes
     volumes:
-      - pland-data:/data
+      - pinsitu-data:/data
     environment:
       TZ: "Europe/Copenhagen"
 
