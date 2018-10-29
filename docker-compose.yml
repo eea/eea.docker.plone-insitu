@@ -13,8 +13,8 @@ services:
       - "8081:80"
 
   plone:
-    # image: eeacms/plone-copernicus-insitu:2.0.8
-    build: .
+    image: eeacms/plone-copernicus-insitu:2.0.8
+    # build: .
     labels:
       io.rancher.scheduler.affinity:host_label: copernicus=yes
     tty: true
