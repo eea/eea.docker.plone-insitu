@@ -1,5 +1,6 @@
 Deploys
 =======
+2.1.1 #99825, #99826 - Theme updates.
 2.1.0 #99825, #96027 - Theme and content updates.
 2.0.9 #96027 - Update to latest KGS                              [broken image]
 2.0.8 #97042 - Update versions (ftw.globalstatusmessage==1.6.2)
