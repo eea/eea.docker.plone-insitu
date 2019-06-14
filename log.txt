@@ -1,5 +1,6 @@
 Deploys
 =======
+19.6.13-2.1.7 #103818 - Update to latest KGS
 2.1.6 #105650 - Update to latest KGS
 2.1.5 #100473 - clear google dependent APIs    (manual step: set matomo script)
 2.1.4 #99831 - Get rid of Plone Help Center. Small upgrade fixes, update links.
