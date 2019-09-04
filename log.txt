@@ -1,5 +1,6 @@
 Deploys
 =======
+19.8.29-2.9 #106583 Add collective.fontawesome.
 19.8.29-2.8 #108830 - land.copernicus.theme 2.5.1
 19.8.29-2.7 #108830 - Update to latest KGS
 19.7.4-2.6 #106584 - Update to latest KGS
