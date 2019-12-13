@@ -1,5 +1,6 @@
 Deploys
 =======
+19.12.11-3.1 #110759 - land.copernicus.theme 2.5.3; Update to latest KGS
 19.8.29-3.0 #106583 - land.copernicus.theme 2.5.2
 19.8.29-2.9 #106583 - Add collective.fontawesome.
 19.8.29-2.8 #108830 - land.copernicus.theme 2.5.1
