@@ -1,5 +1,6 @@
 Deploys
 =======
+20.2.18-3.5 #114321 - Update to latest KGS
 20.2.1-3.4 #114321 #114027 - land.copernicus.theme 2.5.5
 20.2.1-3.3 #113311 - Update to latest KGS
 19.12.11-3.2 #112058 - land.copernicus.theme 2.5.4
