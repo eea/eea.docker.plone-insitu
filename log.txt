@@ -1,5 +1,6 @@
 Deploys
 =======
+22.5.18-5.0 #149840 - Fix sentry not loaded issue
 22.5.18-4.9 #149840 - Update to latest KGS
 21.9.8-4.8 #135717 - Update to latest KGS
 21.1.12-4.7 #121227 - Update to latest KGS
