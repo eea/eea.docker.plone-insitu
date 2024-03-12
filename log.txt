@@ -1,5 +1,6 @@
 Deploys
 =======
+23.9.14-5.3 #262343- Add collective.exportimport (for plone 4)
 23.9.14-5.2 #261206 - Update to latest KGS
 23.1.17-5.1 #160727 - Update to latest KGS
 22.5.18-5.0 #149840 - Fix sentry not loaded issue
